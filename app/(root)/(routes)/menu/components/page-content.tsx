@@ -65,7 +65,7 @@ const PageContent = ({products} : PageContentProps) => {
                     <Box className="gap-3 my-4">
                         {currentParams &&
                              Object.entries(currentParams).map(([key,value]) => (
-                                 <div onClick={() => handleClick(key)} className="px-4 py-1 cursor-pointer hover:shadow-md rounded-md bg-emerald-500/10 text-neutral-600 flex items-center gap-1">
+                                 <div onClick={() => handleClick(key)} key={key} className="px-4 py-1 cursor-pointer hover:shadow-md rounded-md bg-emerald-500/10 text-neutral-600 flex items-center gap-1">
                                     {value}
                                     <X className="w-4 h-4"/>
                                 </div>
