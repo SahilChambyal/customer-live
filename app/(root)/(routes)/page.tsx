@@ -48,7 +48,7 @@ const HomePage = async () => {
               {/* displays the big bowl on the home screen*/}
               <div className="w-full relative h-[560px] flex items-center justify-center">
                 <Image 
-                  src="/img/food.png"
+                  src="/img/Food.png"
                   alt="Hero"
                   className="object-contain w-full h-full absolute" fill
                 />
